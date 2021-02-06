@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  margin:0;
+  background-image: radial-gradient(#501537, #922D50, #D4E79E, #3C1B43);
+}
+
+/* Style the header */
+.header {
+  background-image: linear-gradient(#654F6F, #5C5D8D);
+  padding: 20px;
+  text-align: center;
+  font-family:cursive;
+  font-size: large;
+  color: white;
+}
+
+.x{
+  margin-top: 12px;
+  font-family:cursive;
+  float: right;
+  margin-right: 10px;
+}
+
+.trail{
+  color: white;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #501537;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: thistle;
+  text-align:center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family:cursive;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #922D50;
+  color: white;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+  font-family:monospace;
+  color: whitesmoke;
+  font-weight: bold;
+  font-kerning: auto;
+}
+
+/* Clear floats after the columns */
+.row :after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on
+top of each other instead of next to each other */
+@media screen and (max-width:600px){
+  .column{
+    width: 100%;
+  }
+}
